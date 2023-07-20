@@ -10,11 +10,14 @@ Vue.use(VueRouter);
 const routes = [
   { path: "/", component: HomePage },
   { path: "/shop", component: ProductsPage },
-  { path: "/pastry", component: ProductDetailPage },
+  { path: "/pastry/:productId", component: ProductDetailPage },
   { path: "/cart", component: ShoppingCartPage },
 ];
 
 const router = new VueRouter({
+  // Modes: hash (localhost:8080/#/route) or history (localhost:8080/route)
+  // Hash doesn't make additional requests to the server. Its optimized.
+  // History needs to be configured in your server so it has the same optimization.
   mode: "history",
   routes,
 });
