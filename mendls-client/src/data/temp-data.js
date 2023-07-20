@@ -1,7 +1,7 @@
 import courtesanAuChocolat from "../assets/products/courtesan-au-chocolat.jpg";
 import ludwigCake from "../assets/products/cherry-pistachio-cake.jpg";
 import theAgatha from "../assets/products/doughnut.jpg";
-import theMendelsson from "../assets/products/caramel.jpgs";
+import theMendelsson from "../assets/products/caramel.jpg";
 import appleStrudel from "../assets/products/apple-strudel.jpg";
 import theGustave from "../assets/products/gustave-puff.jpg";
 import petiteEclair from "../assets/products/mini-eclairs.jpg";
@@ -13,8 +13,8 @@ export const products = [
     id: "123",
     name: "Courtesan au Chocolat",
     price: "$26.00",
-    desc: "A delicate pastry filled with layers of cream and topped with pink icing and a chocolate decoration.",
-    image: courtesanAuChocolat,
+    desc: "Our signature delicate pastry filled with layers of cream and topped with pink icing and a chocolate decoration.",
+    imageName: courtesanAuChocolat,
   },
   {
     id: "234",
